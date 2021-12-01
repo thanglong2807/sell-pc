@@ -365,11 +365,14 @@ overflow: hidden;
 }
 
 .fooder{
+    padding-top: 80px;
     width: 100%;
-    height: 220px;
+    height: 260px;
     
 }
-
+.thank-kiu_1 > h4{
+ margin-bottom: 30px;
+}
 .fooder-sign-up-for{
     height: 76px;
     background-color: #f0f8ff;
