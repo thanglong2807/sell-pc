@@ -3,7 +3,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-
+/* phần header */
 .header{
     background-color: #ffffff;
     height: 174px;
@@ -180,16 +180,7 @@
     background-color: #eeeeee;
 }
 
-@keyframes sub-megaGrowth{
-    from{
-        opacity:0 ;
-        transform: translateY(-2%);
-    }
-    to{
-        opacity:1 ;
-        transform: translateY(1);
-    }
-}
+
 
 .item-information-a:hover, .item-product-child-a:hover, .item-text:hover,.collection-a:hover,.promotion-a:hover{
     color:var(--red-color);
@@ -293,7 +284,7 @@
 .distance{
     margin: 0 287px;
 }
-/*  */
+/* phần product */
 .product-container{
     margin: auto;
     max-width: 1150px;
@@ -367,16 +358,7 @@ display: none;
 animation: product ease-out .5s;
 overflow: hidden;
 }
-@keyframes product {
-    from{
-        opacity: 0;
-        transform: translatey(15%);
-    }
-    to{
-        opacity: 1;
-        transform: translatey(0);
-    }
-}
+
 .product-img:hover .product-img-chile-a{
     display: block;
     
