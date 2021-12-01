@@ -299,11 +299,19 @@
     max-width: 1150px;
 }
 
+
 .product-content{
     color: var(--text-color);
     margin-bottom: 30px;
     margin-top: 100px;
-    padding-left: 36px;
+    padding: 0 68px 0 36px;
+    display: flex;
+    justify-content:space-between;
+    
+}
+.product-content-span > a{
+    color: var(--red-color);
+    font-size: 15px;
 }
 
 .product-item{
@@ -321,6 +329,7 @@ display: flex;
     border-radius: 5px;
     width: 209px;
     height: 225px;
+    overflow: hidden;
 }
 
 
@@ -345,24 +354,37 @@ padding-left: 20px ;
 }
 .product-img-chile-a{
 position: absolute;
-background-color: var(--red-color);
-top :160px;
+background-color: var(--black-color);
+top :177px;
 width: 209px;
 height: 37px;
 border-radius:4px ;
 font-size: 18px;
 text-align: center;
 padding-top: 10px;
-color: var(--black-color);
+color: var(--while-color);
 display: none;
+animation: product ease-out .5s;
+overflow: hidden;
+}
+@keyframes product {
+    from{
+        opacity: 0;
+        transform: translatey(15%);
+    }
+    to{
+        opacity: 1;
+        transform: translatey(0);
+    }
 }
 .product-img:hover .product-img-chile-a{
     display: block;
+    
 }
 
 .fooder{
     width: 100%;
-    height: 300px;
+    height: 220px;
     
 }
 
