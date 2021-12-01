@@ -1,0 +1,35 @@
+.product_details-container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.product_details-header{
+    display: flex;
+
+}
+.link-container ,
+.link-container-span{
+    padding: 14px 9px;
+    
+}
+.link-container-span >i{
+    padding-top: 8px;
+    font-size: 12px;
+}
+.link-container>a{
+    color: var(--text-color);
+    font-size: 15px;
+}
+.product_details-header-h2{
+    padding-left: 9px;
+    font-size: 20px;
+    padding-top: 10px;
+
+}
+.details-container{
+    height: 804px;
+    width: 877px;
+}
+.details-container-img>img{
+    width: 374px;
+}
